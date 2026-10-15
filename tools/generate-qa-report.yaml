@@ -1,0 +1,9 @@
+name: generate-qa-report
+description: Produce a JSON QA report with evidence, severity counts, and limitations.
+input_schema:
+  type: object
+  properties:
+    samples: {type: array, items: {type: object}}
+    results: {type: array, items: {type: object}}
+    bounds: {type: object}
+  additionalProperties: false

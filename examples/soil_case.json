@@ -1,0 +1,12 @@
+{
+  "samples": [
+    {"sample_id":"SOIL-001","collection_date":"2026-10-10","location":"Plot A / 0-15 cm","sampler":"A. Kumar","container":"Clean HDPE jar","preservation":"As specified by lab method","chain_of_custody":"COC-1001"},
+    {"sample_id":"SOIL-002","collection_date":"10/11/2026","location":"Plot B / 0-15 cm","sampler":"A. Kumar","container":"Jar","preservation":"Not recorded","chain_of_custody":""}
+  ],
+  "results": [
+    {"sample_id":"SOIL-001","analyte":"pH","value":6.7,"unit":"pH units"},
+    {"sample_id":"SOIL-001","analyte":"Lead","value":18,"unit":"mg/kg"},
+    {"sample_id":"SOIL-999","analyte":"Lead","value":"unknown","unit":"mg/kg"}
+  ],
+  "bounds": {"Lead":{"min":0,"max":15}}
+}

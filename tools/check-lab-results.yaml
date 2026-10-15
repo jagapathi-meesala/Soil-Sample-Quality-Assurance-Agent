@@ -1,0 +1,10 @@
+name: check-lab-results
+description: Check result rows for missing values, units, unknown sample references, duplicates, and optional configured bounds.
+input_schema:
+  type: object
+  required: [samples, results]
+  properties:
+    samples: {type: array, items: {type: object}}
+    results: {type: array, items: {type: object}}
+    bounds: {type: object}
+  additionalProperties: false

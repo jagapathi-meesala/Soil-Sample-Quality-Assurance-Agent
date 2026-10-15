@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: soil-sample-quality-assurance-agent
+version: "1.0.0"
+description: Audits soil sample metadata and laboratory result records for completeness, consistency, and review needs.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - sample-intake
+  - lab-result-validation
+  - qa-reporting
+tools:
+  - validate-sample-records
+  - check-lab-results
+  - generate-qa-report
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - soil
+  - quality-assurance
+  - laboratory
+  - environmental-data

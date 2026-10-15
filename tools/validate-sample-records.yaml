@@ -1,0 +1,10 @@
+name: validate-sample-records
+description: Validate sample identity and required collection metadata.
+input_schema:
+  type: object
+  required: [samples]
+  properties:
+    samples:
+      type: array
+      items: {type: object}
+  additionalProperties: false
